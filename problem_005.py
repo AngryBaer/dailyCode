@@ -23,8 +23,8 @@ def cons(a, b):
 
 def car(pair):
     """
-    return first element
-    :param pair:
+    return first element.
+    :param  pair:
     :return result:
     """
     return pair(lambda a, b: a)
@@ -32,8 +32,8 @@ def car(pair):
 
 def cdr(pair):
     """
-    return last element
-    :param pair:
+    return last element.
+    :param  pair:
     :return result:
     """
     return pair(lambda a, b: b)

@@ -1,4 +1,4 @@
-# Daily Coding Problem 6
+# Daily Coding Problem 7
 
 """
     Given the mapping a = 1, b = 2, ... z = 26, and an encoded message, count the number of ways it can be decoded.
@@ -84,6 +84,6 @@ def num_encodings(code):
 # -------------------------------------------------------------------------------------------------------------------- #
 if __name__ == "__main__":
     print sorted(list(set(flatten_list(encode('1234')))))
-    # print num_encodings('1111')
+    print num_encodings('1111')
 
 # -------------------------------------------------------------------------------------------------------------------- #
